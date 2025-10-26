@@ -27,19 +27,19 @@ apt-get install $APT_OPTS \
     curl
 
 # Install minimal LXDE desktop environment
-apt-get install $APT_OPTS \
-    lxde-core \
-    lxde-icon-theme \
-    lxde-settings-daemon \
-    lxappearance \
-    desktop-base \
-    xserver-xorg
+#apt-get install $APT_OPTS \
+#    lxde-core \
+#    lxde-icon-theme \
+#    lxde-settings-daemon \
+#    lxappearance \
+#    desktop-base \
+#    xserver-xorg
 
 # Install desktop applications
-apt-get install $APT_OPTS \
-    lxterminal \
-    galculator \
-    firefox-esr
+#apt-get install $APT_OPTS \
+#    lxterminal \
+#    galculator \
+#    firefox-esr
 
 # Install networking utilities
 apt-get install $APT_OPTS \

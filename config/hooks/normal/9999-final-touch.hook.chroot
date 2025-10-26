@@ -3,10 +3,10 @@
 # This script runs in the chroot environment during live system build
 
 # Disable unnecessary services
-systemctl disable pve-ha-crm pve-ha-lrm corosync pve-sdn-commit pve-firewall-commit
+#systemctl disable pve-ha-crm pve-ha-lrm corosync pve-sdn-commit pve-firewall-commit
 
 # Mask unnecessary services
-systemctl mask pve-firewall spiceproxy
+#systemctl mask pve-firewall spiceproxy
 
 # Set root password
 passwd << EOD
